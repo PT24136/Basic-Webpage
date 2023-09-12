@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("../image/barbell-g63fb56dd5_1920.jpg");
+  background-size: cover;
+  font-family: "Quicksand", sans-serif;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.one {
+  display: inline-block;
+  position: absolute;
+  left: 55px;
+  top: 10px;
+}
+.one img {
+  width: 90px;
+  margin-left: 10%;
+}
+.one div {
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+  line-height: 20px;
+  margin-left: 0%;
+}
+.two {
+  display: block;
+  margin: 20px auto auto 25%;
+  width: 45%;
+}
+.two {
+  display: inline-block;
+}
+.two ul li {
+  display: inline-block;
+  font-size: 23px;
+  list-style-type: none;
+}
+.two li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px 22px;
+}
+.two ul li a::after {
+  content: "";
+
+  background: red;
+  display: block;
+  width: 0%;
+  height: 2px;
+  margin: auto;
+  margin-left: 20%;
+  transition: 0.5s;
+}
+.two ul li a:hover {
+  width: 100%;
+}
+.three {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 40px;
+}
+.std {
+  background-color: grey;
+  padding: 6px 16px;
+  border-radius: 10px;
+  border: 2px solid grey;
+  margin: 0px 7px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+}
+.std:hover {
+  background-color: aqua;
+  color: black;
+}
+.container {
+  border: 2px solid white;
+  margin: 2% 60%;
+  padding: 25px;
+  width: 30%;
+  border-radius: 20px;
+}
+.group input {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  display: block;
+  width: 70%;
+  margin: 8px auto;
+  padding: 3px;
+  font-size: 26px;
+  border: 2px solid palevioletred;
+  border-radius: 8px;
+}
+.container h2 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
